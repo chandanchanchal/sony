@@ -1,0 +1,13 @@
+    stage('Run container of Dev server'){
+      def dockerRun = 'docker run -p 8080:8080 -d --name app1 chandanchanchal/jenkins-cicd:1.0'
+      def dockerRm = 'docker rm -f app1'
+      def dockerRmImage= 'docker rmi -f chandanchanchal/jenkins-cicd:1.0'
+        sshagent(['sshToRemoteEc2Instance']) {
+        try{
+        sh "ssh -o StrictHostKeyChecking=no ec2-user@13.233.229.125 ${dockerRm}"
+        sh "ssh -o StrictHostKeyChecking=no ec2-user@13.233.229.125 ${dockerRmImage}"
+        }catch(err){echo: 'caught error: $err'}
+         sh "ssh -o StrictHostKeyChecking=no ec2-user@13.233.229.125 ${dockerRun}"
+    }
+    
+    }
