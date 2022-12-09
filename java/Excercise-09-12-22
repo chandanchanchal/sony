@@ -1,0 +1,40 @@
+Java Program to Calculate Taxes
+Using the double types, implement the following: Suppose a product costs 9.99 net, calculate its gross value (we assume VAT of 23%). Then multiply it by 10,000 (i.e., we sold 10,000 pcs of this product), and calculate this value excluding VAT.
+
+###############################################################
+What this program is doing.?
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Main {
+   
+    public static void main(String[] args) {
+       
+        // Set up test data
+        String name[] = {
+            new String("Sang"),
+            new String("Shin"),
+            new String("Boston"),
+            new String("Shin")
+        };
+       
+        // Create HashSet object instance and
+        // assign it to a variable of Set type.
+        Set s = new HashSet();
+        for (int i=0; i<name.length; i++)
+            if (!s.add(name[i]))
+                System.out.println(""+name[i]);
+       
+        System.out.println(s.size()+"  "+s);
+    }
+}
+
+############################################################################
+Write a program which shows polymorphism with Collection framework
+
+################################################################################
+Write a program which uses  Iterator
+
+######################################################################
+
