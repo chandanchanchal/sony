@@ -1,0 +1,47 @@
+Create a list by picking an odd-index items from the first list and even index items from the second
+Slice list into 3 equal chunks and reverse each chunk
+Count the occurrence of each element from a list
+Check if a value exists in a dictionary
+Get the key of a minimum value from the following dictionary
+sample_dict = {
+  'Physics': 82,
+  'Math': 65,
+  'history': 75
+}
+
+Write a Python program to change Brad’s salary to 8500 in the following dictionary.
+
+
+Given:
+
+sample_dict = {
+    'emp1': {'name': 'Jhon', 'salary': 7500},
+    'emp2': {'name': 'Emma', 'salary': 8000},
+    'emp3': {'name': 'Brad', 'salary': 500}
+}
+Expected output:
+
+{
+   'emp1': {'name': 'Jhon', 'salary': 7500},
+   'emp2': {'name': 'Emma', 'salary': 8000},
+   'emp3': {'name': 'Brad', 'salary': 8500}
+}
+
+Unpack the tuple into 4 variables
+
+Swap two tuples in Python
+Copy specific elements from one tuple to a new tuple
+Sort a tuple of tuples by 2nd item
+Check if all items in the tuple are the same
+Create a string made of the first, middle and last character
+Arrange string characters such that lowercase letters should come first
+Count all letters, digits, and special symbols from a given string
+Calculate the sum and average of the digits present in a string
+Given a string s1, write a program to return the sum and average of the digits that appear in the string, ignoring all other characters.
+
+Given:
+
+str1 = "Python29@#8496"
+Expected Outcome:
+
+Sum is: 38 Average is  6.333333333333333
