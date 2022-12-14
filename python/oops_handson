@@ -1,0 +1,8 @@
+Create a Class with instance attributes
+Create a Vehicle class without any variables and methods
+Create a child class Bus that will inherit all of the variables and methods of the Vehicle class
+Class Inheritance
+Define a property that must have the same value for every class instance (object)
+Class Inheritance
+Check type of an object
+Determine if School_bus is also an instance of the Vehicle class
